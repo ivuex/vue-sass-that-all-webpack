@@ -9,12 +9,21 @@
 ## usage: 
 
 #### 开发
+##### 在根目录递归监听所有子组件,并在内存中编译多个html
 ``` lang=shell
 npm start
 
 # OR
 
 npm run dev
+```
+##### 在任意子组件根目录中监听所有子组件,并编译html
+``` lang=shell
+npm run that -- --root=`pwd`
+
+# OR
+
+npm run that -- --root=$(pwd)
 ```
 
 #### vue-sass-cli生成配套的vue子组件目录结构

@@ -1,6 +1,6 @@
 <template>
     <div id="zhouyu">
-      zhouyu
+      zhouyu, ok
     </div>
 </template>
 

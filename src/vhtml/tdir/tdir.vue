@@ -1,6 +1,7 @@
 <template>
     <div id="tdir">
         hello, I am vhtml/tdir
+        hello, I am vhtml/tdir
         <te></te>
     </div>
 </template>
